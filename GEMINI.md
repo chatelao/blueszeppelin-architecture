@@ -17,11 +17,12 @@ Document the network, proxy, server and application layout of the "blueszeppelin
 
 ### Servers
 - Document all servers with their function, redirects, ports, including itunes, rabe, youtube music
-- Document all server with name, source, ip-addresses and status on port 443 and 80 (update on each run)
+- Document all server with name, source, ip-addresses and status on port 443 and 80 with Emojis (update on each run)
+- Include at least Apple, Youtube, feedburner, rabe, blueszeppelin and nuxit
 
 ### Software
-- Document all systems with name, source, version, security flaws and available upgrades
+- Document all systems with name, source, version, security flaws and available upgrades as a table
 
 ### DNS
-- Document the entire DNS configuration, including responsible NS server and all entries with their function
+- Document the entire DNS configuration as a table, including responsible NS server and all entries with their function
 
