@@ -10,8 +10,8 @@ This document describes the network, server, and application layout of the "Blue
 
 ### 1. Web and Application Server
 - **Domain:** `blueszeppelin.net`
-- **IP Address:** 91.207.255.224
-- **Server Software:** Apache
+- **IP Address:** `91.207.255.224`
+- **Server Software:** Apache (Ports 80, 443)
 - **Application:** **Podcast Generator 2.6** (an open-source podcast publishing solution)
 - **Path:** `https://blueszeppelin.net/podcast/`
 - **Media Storage:** Podcast episodes (MP3 files) are stored at `https://blueszeppelin.net/podcast/media/`.
@@ -48,6 +48,7 @@ This document describes the network, server, and application layout of the "Blue
 
 ### 6. Broadcast and Syndication
 - **Primary Broadcast:** **Radio RaBe** (Radio Bern, 95.6 MHz) on Sunday afternoons.
+- **Radio RaBe IP:** `159.100.249.37`
 - **Syndication:** The program is also aired on:
     - Radio LoRa (Zurich, CH)
     - Diis Radio (Canton Valais, CH)
@@ -55,16 +56,16 @@ This document describes the network, server, and application layout of the "Blue
     - WRFI Community Radio (Ithaca NY / Odessa NY, USA)
     - Ground Zero Radio Network (Portland OR, USA)
 
-### 7. Online Presence
-- **Homepage Redirect:** `https://blueszeppelin.net` performs a meta-refresh redirect to the Radio RaBe program page: `http://rabe.ch/blues-zeppelin/`.
+### 5. Online Presence
+- **Homepage Redirect:** `https://blueszeppelin.net` often serves as a landing page or redirects to the Radio RaBe program page.
 - **RaBe Program Page:** `https://rabe.ch/blues-zeppelin/` serves as the official radio station profile.
 - **Social Media:** [Blues Zeppelin Facebook Page](https://www.facebook.com/BluesZeppelin)
 
 ## Topology Diagram
 
-![Topology Diagram](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/blueszeppelin/network-docs/main/diagrams/topology.puml)
+![Topology Diagram](https://www.plantuml.com/plantuml/png/ZLF1Qjj04BtlLmm-51jY5reQg0ybKOqRIbqRgoMGqCDOciYBvLsnEsgmI_wzixkARFTKNuJdlNdpverqunaTj_jQiUQQ8AjRyl10JKErDl2T-Dcw7VomZQrjTL3AxxHfqE4U2hjlh273EH-aqr71QAgQb6gms655C5WvMxO5Qsi6y4U1_B1Wws2mG17DcSon9ZS0z10gaV6OSrjg2szXZU6vnen-1KQggvSp_NlQG4xkDpaOReBpOsTyOeX7hpCVRwLXcqIa8pKaP6NB0Zt35pBaC5XxDxcEH46a65abCcxGoxm5bHh5Y7KoFjaEbGjFSw9IjZ7oPo_Xz2P2FMkTp8dwy-oYAtCMenLolcyv1G33Znycrx2uEuvYTwWbpfAtidtE65BsCFncrtW5dx-kbrT0N4mIFxAYtCNKcQuqOmqpxTdfJNj-AKcjaRDs2Vae4qkTjpo7swfoL8NO4Yor81-FEnv_wYu6KqZlWRnOXJLoT5OT4aWfQ27zR6h901Qhz_16ScLK7JGkxRCHPaf_6lCNhITTarVzGNjQBtXdnRVgLPokjYpuF1Cis5zAHTxnuPDSPj9icv4IgAUbzMNQmPIwGAQutZaZQFoBdsyM3pU5_hGg5W9oEiUPW6IlL9hwkiffkQdSA7nXNGWpmKDQAdZuVxQw8LE6Z_ql)
 
-*(Note: The above link is a placeholder for when the repository is hosted on GitHub. Below is the PlantUML source.)*
+*(Note: The above diagram is rendered via the PlantUML server using the encoded source from `diagrams/topology.puml`.)*
 
 ```plantuml
 @startuml
