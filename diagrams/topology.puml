@@ -18,13 +18,10 @@ package "Feed Management" {
     [FeedBurner Proxy\n(74.125.132.121)] as FB
 }
 
-package "Broadcasters" {
-    [Radio RaBe (95.6 MHz)] as RaBe
-    [Other Stations (LoRa, CJRO, etc.)] as OtherRadio
-}
-
 package "Digital Distribution" {
     [Apple Podcasts] as Apple
+    [YouTube Music] as YouTube
+    [Spotify / Amazon / TuneIn] as OtherHubs
     [RSS Aggregators] as RSS
 }
 
@@ -35,12 +32,13 @@ WebServer -down-> PodGen : Hosts
 
 PodGen -up-> FB : RSS Origin (feed.php)
 FB -up-> Apple : Syndicate RSS
+FB -up-> YouTube : Syndicate RSS
+FB -up-> OtherHubs : Syndicate RSS
 FB -up-> RSS : Syndicate RSS
 
-Studio --> RaBe : Broadcast
-RaBe --> OtherRadio : Syndication
-
 Apple -down-> WebServer : Direct Media Download
+YouTube -down-> WebServer : Direct Media Download
+OtherHubs -down-> WebServer : Direct Media Download
 RSS -down-> WebServer : Direct Media Download
 
 @enduml
