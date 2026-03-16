@@ -22,6 +22,7 @@ Document the network, proxy, server and application layout of the "blueszeppelin
 
 ### Software
 - Document all systems with name, source, version, security flaws and available upgrades as a table
+- Sort the layers from application down to OS/metall
 
 ### DNS
 - Document the entire DNS configuration as a table, including responsible NS server and all entries with their function
