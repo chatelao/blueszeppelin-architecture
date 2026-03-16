@@ -2,14 +2,14 @@
 
 ## Next 5 Tasks
 1. [ ] Map the server hardware and OS specifications.
-2. [ ] Analyze security flaws in Apache and Podcast Generator 2.6.
-3. [ ] Analyze the Podcast Generator 2.6 setup and its PHP environment.
-4. [ ] Identify and document all media storage locations on the primary server.
-5. [ ] Detail the RSS feed generation process within Podcast Generator.
+2. [ ] Analyze the Podcast Generator 2.6 setup and its PHP environment.
+3. [ ] Identify and document all media storage locations on the primary server.
+4. [ ] Detail the RSS feed generation process within Podcast Generator.
+5. [ ] Document the backup and recovery procedures for the podcast media and database.
 
 ## All Tasks
 1. [ ] Map the server hardware and OS specifications.
-2. [x] Document the Apache web server configuration and version. (Basic info added)
+2. [x] Document the Apache web server configuration and version.
 3. [ ] Analyze the Podcast Generator 2.6 setup and its PHP environment.
 4. [ ] Identify and document all media storage locations on the primary server.
 5. [ ] Detail the RSS feed generation process within Podcast Generator.
@@ -26,5 +26,6 @@
 16. [ ] Document the process for updating Podcast Generator and its plugins.
 17. [x] Map the links and redirects from the main website (blueszeppelin.net).
 18. [ ] Document any automated scripts or cron jobs running on the server.
-19. [ ] Create a PlantUML diagram of the application layer architecture.
+19. [x] Create a PlantUML diagram of the application layer architecture.
 20. [x] Finalize and review the comprehensive documentation in README.md.
+21. [x] Analyze security flaws in Apache and Podcast Generator 2.6.
