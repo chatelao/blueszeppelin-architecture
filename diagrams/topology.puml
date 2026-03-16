@@ -34,8 +34,8 @@ PodGen -down-> Media : Stores files
 WebServer -down-> PodGen : Hosts
 
 PodGen -up-> FB : RSS Origin (feed.php)
-FB -right-> Apple : Syndicate RSS
-FB -right-> RSS : Syndicate RSS
+FB -up-> Apple : Syndicate RSS
+FB -up-> RSS : Syndicate RSS
 
 Studio --> RaBe : Broadcast
 RaBe --> OtherRadio : Syndication
