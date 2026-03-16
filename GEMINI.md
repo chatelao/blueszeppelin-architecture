@@ -12,4 +12,5 @@ Document the network, proxy, server and application layout of the "blueszeppelin
 ## Documentation
 
 - Keep all infos in the README.md
+- Maintain a `roadmap.md` file to track the next 5 tasks and overall progress
 - Add embedded diagramms with plantuml, keep the diagram source in /diagrams
