@@ -13,3 +13,6 @@ Document the network, proxy, server and application layout of the "blueszeppelin
 
 - Keep all infos in the README.md
 - Add embedded diagramms with plantuml, keep the diagram source in /diagrams
+- Document all systems with name, source, version, ip-addresses
+- Document the entire DNS configuration, including responsible NS server and all entries with their function
+- Document all servers with their function, redirects, ports, including itunes, rabe, youtube music
