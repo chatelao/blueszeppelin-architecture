@@ -38,24 +38,9 @@ This document describes the network, server, and application layout of the "Blue
 | NS | `blueszeppelin.net` | `ns1.modns.fr` | Primary Name Server |
 | NS | `blueszeppelin.net` | `ns2.modns.fr` | Secondary Name Server |
 
-### 6. Broadcast and Syndication
-- **Primary Broadcast:** **Radio RaBe** (Radio Bern, 95.6 MHz) on Sunday afternoons.
-- **Radio RaBe IP:** `159.100.249.37`
-- **Syndication:** The program is also aired on:
-    - Radio LoRa (Zurich, CH)
-    - Diis Radio (Canton Valais, CH)
-    - CJRO Community Radio (Ottawa, CAN)
-    - WRFI Community Radio (Ithaca NY / Odessa NY, USA)
-    - Ground Zero Radio Network (Portland OR, USA)
-
-### 7. Online Presence
-- **Homepage Redirect:** `https://blueszeppelin.net` often serves as a landing page or redirects to the Radio RaBe program page.
-- **RaBe Program Page:** `https://rabe.ch/blues-zeppelin/` serves as the official radio station profile.
-- **Social Media:** [Blues Zeppelin Facebook Page](https://www.facebook.com/BluesZeppelin)
-
 ## Topology Diagram
 
-![Topology Diagram](https://www.plantuml.com/plantuml/png/ZLF1Rjf04BtlLumuL205jpWXKJbKYOjeL9M2SAfAJNiOx8bPONQjzJefgVhlcTrr3FHKNopFU_jcvhtrTMtHs6PN2YjjIP2K3TNmWwgAIgdWAzadRRPmfojTwc8lHBsLgaA3EyZqhjAAb4tjdayQoYogeYGXAiosM13qbaRdJMQbLZtu8u0VpAmsq9iZYwQMr7D9fWTOWwjundrgcrngU0ihTEyL9lJBCK9T_3tI_qvhICayae7--r4KlxkAul4uYkEBmMl3-njcRu82qmCx84kTPrXR-4IA3BgvukZI4ndXecVbQ76DDJURKowHfz26UuUPNULae1bHpgie_jYnCzqGhfuqXli0U_9x_rFrhowYKJoEHkSnlqS3ttUMdAWbHgCVaKpTIHrSuPt7qINCRv_3QLSBd8NTSAVKehE-XluNlS8p-FXvjJW3ibaK-9xbvKwwJcKXBPOmbRKrSjqSnyTkLfnrwrpjPNofdIrDuQOe31NEpW1ppSdxn8V33ssCC85mEVYsPLhnJR2YHHmf1C2aRrN97i1yUGvls6-BeeM6kNvIp0ofJ7mkhFKWIwf55tH7wmHlDSyjEfMcOd2MCE1cNnZUNK7_WUEAgaqr40m5JbYS--nLBZEqv1VhO7VwN_1u8P_N1Bf4XIyuv932aG1RBaHe-Rh1OQS9H-F-jdRtAUFE9E5c-7-sk2QLkn__1G00)
+![Topology Diagram](https://www.plantuml.com/plantuml/png/ZPH1Rnen48Nl_XKZ3XKSs9PDQ5GELK28fWSQn59LRTg3sHqMYyMsl7QJJTN_th6zR99AaU2oCEzvvlaRuBgst5Xth9WLjaAOLGvh-85QOoKaV45xhym1DaghIfKDO_L1ICqDFqAkZbf9b3Qp3Pqqc5ikomePqpm_y1AXjpAgSBaLIlRW3mDwyTmg0xqbfwQPHVbOeUa1hy5NWkCkiwuG2jx2clldci_mbtV4EllxhFytt4A6vZSQw7yO9UcxgoGTZvCqlHoS1jvDoRsF7SWUtL5PgIBdjOLFAD5mdojDtWSZALGChe9RlkKr3LjY8JYbK8Pcnyo-yYBG0h6WgqZwS2GoNGXVdpb3Su2OF3G_PV_gCXcbusHqaT9pD0Xp5xCNtUQY59PNC1UrDMBhdeEaUscYtjwX3iT3AQhVbTkuBSBIrI8FObjf6MjbnQuXoDCZVrIItcoSnCyoM6_j7isDszRHlCuoc9QbmT93YgEevgE6FGw77zlbm0JYokaxb2j9-xMiLRmfOYNJLrqfJg1M5_26A5hEMcbOg7j9piXw4cXJhvsei6RT-ZfRr_164GFMTN6QnCMC19_zrX172VqTBI7HUprW94LFX4Xp6bc8d5iC5-la4yLN3Hsfroq-mVyYYtDFrtYws8HsxNz8BO0vwPuKEmKv_yHJilFF-AZdkzaroiB_S_m3)
 
 *(Note: The above diagram is rendered via the PlantUML server using the encoded source from `diagrams/topology.puml`.)*
 
@@ -68,3 +53,16 @@ This document describes the network, server, and application layout of the "Blue
 5. **Distribution:**
     - **Apple Podcasts** and other aggregators poll FeedBurner.
     - Listeners download media directly from `blueszeppelin.net`.
+
+## Podcast Hubs and Distribution
+
+The "Blues Zeppelin" podcast is syndicated across various digital platforms and hubs:
+
+| Hub | Description | Access Link |
+|-----|-------------|-------------|
+| **Apple Podcasts** | Primary podcast directory for Apple users. | [Listen on Apple Podcasts](https://podcasts.apple.com/ca/podcast/the-blueszeppelin-hosted-by-mark-stenzler-has-been/id1046574635) |
+| **YouTube Music** | Integrated music and podcast service from Google. | [Listen on YouTube Music](https://music.youtube.com/search?q=The+BluesZeppelin) |
+| **Spotify** | Global music and podcast streaming platform. | [Search on Spotify](https://open.spotify.com/search/The%20BluesZeppelin) |
+| **Amazon Music** | Podcast and music hub for Amazon users. | [Search on Amazon Music](https://music.amazon.com/search/The+BluesZeppelin) |
+| **TuneIn** | Radio and podcast streaming platform. | [Search on TuneIn](https://tunein.com/search/?query=The%20BluesZeppelin) |
+| **Podcast Addict** | Popular Android podcast application. | [Search on Podcast Addict](https://podcastaddict.com/search?q=The+BluesZeppelin) |

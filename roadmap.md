@@ -29,3 +29,5 @@
 19. [x] Create a PlantUML diagram of the application layer architecture.
 20. [x] Finalize and review the comprehensive documentation in README.md.
 21. [x] Analyze security flaws in Apache and Podcast Generator 2.6.
+22. [x] Document podcast hubs and distribution channels.
+23. [x] Refine network topology diagram to focus on digital distribution.
