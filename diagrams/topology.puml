@@ -33,7 +33,7 @@ Studio --> PodGen : Upload MP3 & Meta
 PodGen -down-> Media : Stores files
 WebServer -down-> PodGen : Hosts
 
-PodGen -right-> FB : RSS Origin (feed.php)
+PodGen -up-> FB : RSS Origin (feed.php)
 FB -right-> Apple : Syndicate RSS
 FB -right-> RSS : Syndicate RSS
 
