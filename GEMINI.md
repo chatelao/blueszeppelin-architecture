@@ -10,10 +10,17 @@ Document the network, proxy, server and application layout of the "blueszeppelin
 - Have a look at https://blueszeppelin.net/podcast
 
 ## Documentation
-
 - Keep all infos in the README.md
 - Maintain a `roadmap.md` file to track the next 5 tasks and overall progress
 - Add embedded diagramms with plantuml, keep the diagram source in /diagrams
-- Document all systems with name, source, version, ip-addresses
-- Document the entire DNS configuration, including responsible NS server and all entries with their function
+
+### Servers
 - Document all servers with their function, redirects, ports, including itunes, rabe, youtube music
+- Document all server with name, source, ip-addresses and status on port 443 and 80 (update on each run)
+
+### Software
+- Document all systems with name, source, version, security flaws and available upgrades
+
+### DNS
+- Document the entire DNS configuration, including responsible NS server and all entries with their function
+
