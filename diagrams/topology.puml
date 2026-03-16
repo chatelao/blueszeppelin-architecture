@@ -1,0 +1,46 @@
+@startuml
+title Blues Zeppelin Network Topology
+
+skinparam componentStyle rectangle
+
+package "Production" {
+    actor "Mark Stenzler" as Mark
+    [Studio / Radio RaBe] as Studio
+}
+
+package "Web Server (blueszeppelin.net)" {
+    [Apache] as WebServer
+    [Podcast Generator 2.6] as PodGen
+    database "Media Storage" as Media
+}
+
+package "Feed Management" {
+    [FeedBurner] as FB
+}
+
+package "Broadcasters" {
+    [Radio RaBe (95.6 MHz)] as RaBe
+    [Other Stations (LoRa, CJRO, etc.)] as OtherRadio
+}
+
+package "Digital Distribution" {
+    [Apple Podcasts] as Apple
+    [RSS Aggregators] as RSS
+}
+
+Mark --> Studio : Produces content
+Studio --> PodGen : Upload MP3 & Meta
+PodGen -down-> Media : Stores files
+WebServer -down-> PodGen : Hosts
+
+PodGen -right-> FB : RSS Origin (feed.php)
+FB -right-> Apple : Syndicate RSS
+FB -right-> RSS : Syndicate RSS
+
+Studio --> RaBe : Broadcast
+RaBe --> OtherRadio : Syndication
+
+Apple -down-> WebServer : Direct Media Download
+RSS -down-> WebServer : Direct Media Download
+
+@enduml
