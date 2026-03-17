@@ -9,14 +9,14 @@ This document describes the network, server, and application layout of the "Blue
 ## Infrastructure and Components
 
 ### 3. Servers
-| Name | Function | Admin URL | IP Address | Source | Port 80 | Port 443 | Redirects / Proxy | Status |
-|------|----------|-----------|------------|--------|---------|----------|-------------------|--------|
-| `blueszeppelin.net` | Web / App Server | [Admin](https://blueszeppelin.net/podcast/?p=admin) | 91.207.255.224 | Direct | ❌ | ✅ | Meta-refresh to RaBe | Updated |
-| `feed.blueszeppelin.net` | FeedBurner Proxy | [Admin](https://feedburner.google.com/) | 74.125.132.121 | Proxy | ✅ | ❌ | Proxies to Google/FeedBurner | Updated |
-| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 23.38.252.25 | Apple | ✅ | ✅ | None | Updated |
-| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 74.125.132.190 | Google | ✅ | ✅ | None | Updated |
-| `rabe.ch` | Radio Station Site | [Admin](https://data.rabe.ch/admin/) | 159.100.249.37 | RaBe | ✅ | ✅ | None | Updated |
-| `nuxit.com` | Hosting Provider | [Admin](https://cp.nuxit.com/) | 195.144.11.38 | Nuxit | ✅ | ✅ | None | Updated |
+| Name | Function | Admin URL | IP Address | Source | Port 80 | Port 443 | Redirects / Proxy |
+|------|----------|-----------|------------|--------|---------|----------|-------------------|
+| `blueszeppelin.net` | Web / App Server | [Admin](https://blueszeppelin.net/podcast/?p=admin) | 91.207.255.224 | Direct | ❌ | ✅ | Meta-refresh to RaBe |
+| `feed.blueszeppelin.net` | FeedBurner Proxy | [Admin](https://feedburner.google.com/) | 74.125.132.121 | Proxy | ✅ | ❌ | Proxies to Google/FeedBurner |
+| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 23.38.252.25 | Apple | ✅ | ✅ | None |
+| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 74.125.132.190 | Google | ✅ | ✅ | None |
+| `rabe.ch` | Radio Station Site | [Admin](https://data.rabe.ch/admin/) | 159.100.249.37 | RaBe | ✅ | ✅ | None |
+| `nuxit.com` | Hosting Provider | [Admin](https://cp.nuxit.com/) | 195.144.11.38 | Nuxit | ✅ | ✅ | None |
 
 ### 4. Software and Systems
 | System | Source | Version | Security Flaws | Available Upgrades |
