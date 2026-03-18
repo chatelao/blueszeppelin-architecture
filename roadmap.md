@@ -31,3 +31,4 @@
 21. [x] Analyze security flaws in Apache and Podcast Generator 2.6.
 22. [x] Document podcast hubs and distribution channels.
 23. [x] Refine network topology diagram to focus on digital distribution.
+24. [x] Remove Status column from Servers table in README.md.
