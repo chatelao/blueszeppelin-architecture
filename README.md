@@ -60,11 +60,11 @@ This document describes the network, server, and application layout of the "Blue
 
 The "Blues Zeppelin" podcast is syndicated across various digital platforms and hubs:
 
-| Hub | Description | Access Link |
-|-----|-------------|-------------|
-| **Apple Podcasts** | Primary podcast directory for Apple users. | [Listen on Apple Podcasts](https://podcasts.apple.com/ca/podcast/the-blueszeppelin-hosted-by-mark-stenzler-has-been/id1046574635) |
-| **YouTube Music** | Integrated music and podcast service from Google. | [Listen on YouTube Music](https://music.youtube.com/search?q=The+BluesZeppelin) |
-| **Spotify** | Global music and podcast streaming platform. | [Search on Spotify](https://open.spotify.com/search/The%20BluesZeppelin) |
-| **Amazon Music** | Podcast and music hub for Amazon users. | [Search on Amazon Music](https://music.amazon.com/search/The+BluesZeppelin) |
-| **TuneIn** | Radio and podcast streaming platform. | [Search on TuneIn](https://tunein.com/search/?query=The%20BluesZeppelin) |
-| **Podcast Addict** | Popular Android podcast application. | [Search on Podcast Addict](https://podcastaddict.com/search?q=The+BluesZeppelin) |
+| Hub | Description | Access Link | Management |
+|-----|-------------|-------------|------------|
+| **Apple Podcasts** | Primary podcast directory for Apple users. | [Listen on Apple Podcasts](https://podcasts.apple.com/ca/podcast/the-blueszeppelin-hosted-by-mark-stenzler-has-been/id1046574635) | [Claim Show](CLAIM_APPLE.md) |
+| **YouTube Music** | Integrated music and podcast service from Google. | [Listen on YouTube Music](https://music.youtube.com/search?q=The+BluesZeppelin) | |
+| **Spotify** | Global music and podcast streaming platform. | [Search on Spotify](https://open.spotify.com/search/The%20BluesZeppelin) | |
+| **Amazon Music** | Podcast and music hub for Amazon users. | [Search on Amazon Music](https://music.amazon.com/search/The+BluesZeppelin) | |
+| **TuneIn** | Radio and podcast streaming platform. | [Search on TuneIn](https://tunein.com/search/?query=The%20BluesZeppelin) | |
+| **Podcast Addict** | Popular Android podcast application. | [Search on Podcast Addict](https://podcastaddict.com/search?q=The+BluesZeppelin) | |
