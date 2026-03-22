@@ -12,9 +12,9 @@ This document describes the network, server, and application layout of the "Blue
 | Name | Function | Admin URL | IP Address | Source | Port 80 | Port 443 | Redirects / Proxy |
 |------|----------|-----------|------------|--------|---------|----------|-------------------|
 | `blueszeppelin.net` | Web / App Server | [Admin](https://blueszeppelin.net/podcast/?p=admin) | 188.130.25.202 | Direct | ✅ | ✅ | Meta-refresh to RaBe |
-| `feed.blueszeppelin.net` | FeedBurner Proxy | [Admin](https://feedburner.google.com/) | 173.194.206.121 | Proxy | ✅ | ✅ | Proxies to Google/FeedBurner |
-| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 2.16.232.30 | Apple | ✅ | ✅ | None |
-| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 74.125.126.136 | Google | ✅ | ✅ | None |
+| `feed.blueszeppelin.net` | FeedBurner Proxy | [Admin](https://feedburner.google.com/) | 74.125.202.121 | Proxy | ✅ | ❌ | Proxies to Google/FeedBurner |
+| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 23.54.40.29 | Apple | ✅ | ✅ | None |
+| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 64.233.181.91 | Google | ✅ | ✅ | None |
 | `rabe.ch` | Radio Station Site | [Admin](https://data.rabe.ch/admin/) | 159.100.249.37 | RaBe | ✅ | ✅ | None |
 | `nuxit.com` | Hosting Provider | [Admin](https://cp.nuxit.com/) | 195.144.11.38 | Nuxit | ✅ | ✅ | None |
 
@@ -42,7 +42,7 @@ This document describes the network, server, and application layout of the "Blue
 
 ## Topology Diagram
 
-![Topology Diagram](https://www.plantuml.com/plantuml/png/ZPH1Rnen48Nl_XKZ3XKSs9PDQ5GELK28fWSQn59LRTg3sHqMYyMsl7QJJTN_th6zR99AaU2oCEzvvlaRuBgst5Xth9WLjaAOLGvh-85QOoKaV45xhym1DaghIfKDO_L1ICqDFqAkZbf9b3Qp3Pqqc5ikomePqpm_y1AXjpAgSBaLIlRW3mDwyTmg0xqbfwQPHVbOeUa1hy5NWkCkiwuG2jx2clldci_mbtV4EllxhFytt4A6vZSQw7yO9UcxgoGTZvCqlHoS1jvDoRsF7SWUtL5PgIBdjOLFAD5mdojDtWSZALGChe9RlkKr3LjY8JYbK8Pcnyo-yYBG0h6WgqZwS2GoNGXVdpb3Su2OF3G_PV_gCXcbusHqaT9pD0Xp5xCNtUQY59PNC1UrDMBhdeEaUscYtjwX3iT3AQhVbTkuBSBIrI8FObjf6MjbnQuXoDCZVrIItcoSnCyoM6_j7isDszRHlCuoc9QbmT93YgEevgE6FGw77zlbm0JYokaxb2j9-xMiLRmfOYNJLrqfJg1M5_26A5hEMcbOg7j9piXw4cXJhvsei6RT-ZfRr_164GFMTN6QnCMC19_zrX172VqTBI7HUprW94LFX4Xp6bc8d5iC5-la4yLN3Hsfroq-mVyYYtDFrtYws8HsxNz8BO0vwPuKEmKv_yHJilFF-AZdkzaroiB_S_m3)
+![Topology Diagram](https://www.plantuml.com/plantuml/png/ZPHDRnen48Rl_XKZ3XKSs0RIZuX35H2YwO46iLHLc_RWtHqMYyMs_D6KLFtl7TlB9gaK2IuByxwUUVqCS6qTDyuV6kQ4Qn1cZKSBtr5hR8I4p-ZkbTd3HcdLgFh8cDqBgRdX1oZLGIk9qkNkI2SDbexBka76D2_tl4RehOogVEc4aZtumu1Ul7JAG6_9gMdkK3uqQ7h0BOHATDpbpbT2mMjOy_1Synd-38vKPt-VzF-A1UHeVg61_kZgAXjTNcJZjzduOZmu3RoRadkNEf0zkPEoKbN9hOEFAD7ma6kSlOj6KgWONHLtlE2MXYsn4fnIA4EpK-PGUHPeWLZHLIHzE12PBaIepxoXEK1CVXz_oFxxDzaePQNdQ13dBcRFkir5BHnlO2wiCwBmJq7IlJHHR-zWu_5OIketvJU-G5XwAyeejfMMiLPER8y4UNhW3qhIcusN-4b6wwtReRdnXKtcTPx3jAuDrW5I6aMr43NkSJZyq2u79f1MJj-XKadQhsEj4am9Avc-w4Pn0hMwX5T4qN7MIiDAtKjo9jQJI9jwRKM3bdNhwsnTmnj535ZNnMiI5pCIGlPRGnmbzBUqX4plz82Hb3m98iqvoagKt66yM2UVABvew4YzR0a9_XTPcdkwnkF59hJhy4Dg0Sn93wJOASZv9nwJdNycH3tVpQvHLk6Vuny0)
 
 *(Note: The above diagram is rendered via the PlantUML server using the encoded source from `diagrams/topology.puml`.)*
 
@@ -60,11 +60,11 @@ This document describes the network, server, and application layout of the "Blue
 
 The "Blues Zeppelin" podcast is syndicated across various digital platforms and hubs:
 
-| Hub | Description | Access Link |
-|-----|-------------|-------------|
-| **Apple Podcasts** | Primary podcast directory for Apple users. | [Listen on Apple Podcasts](https://podcasts.apple.com/ca/podcast/the-blueszeppelin-hosted-by-mark-stenzler-has-been/id1046574635) |
-| **YouTube Music** | Integrated music and podcast service from Google. | [Listen on YouTube Music](https://music.youtube.com/search?q=The+BluesZeppelin) |
-| **Spotify** | Global music and podcast streaming platform. | [Search on Spotify](https://open.spotify.com/search/The%20BluesZeppelin) |
-| **Amazon Music** | Podcast and music hub for Amazon users. | [Search on Amazon Music](https://music.amazon.com/search/The+BluesZeppelin) |
-| **TuneIn** | Radio and podcast streaming platform. | [Search on TuneIn](https://tunein.com/search/?query=The%20BluesZeppelin) |
-| **Podcast Addict** | Popular Android podcast application. | [Search on Podcast Addict](https://podcastaddict.com/search?q=The+BluesZeppelin) |
+| Hub | Description | Independent Login | Access Link |
+|-----|-------------|-------------------|-------------|
+| **Apple Podcasts** | Primary podcast directory for Apple users. | Yes | [Listen on Apple Podcasts](https://podcasts.apple.com/ca/podcast/the-blueszeppelin-hosted-by-mark-stenzler-has-been/id1046574635) |
+| **YouTube Music** | Integrated music and podcast service from Google. | Yes | [Listen on YouTube Music](https://music.youtube.com/search?q=The+BluesZeppelin) |
+| **Spotify** | Global music and podcast streaming platform. | Yes | [Search on Spotify](https://open.spotify.com/search/The%20BluesZeppelin) |
+| **Amazon Music** | Podcast and music hub for Amazon users. | Yes | [Search on Amazon Music](https://music.amazon.com/search/The+BluesZeppelin) |
+| **TuneIn** | Radio and podcast streaming platform. | Yes | [Search on TuneIn](https://tunein.com/search/?query=The%20BluesZeppelin) |
+| **Podcast Addict** | Popular Android podcast application. | No | [Search on Podcast Addict](https://podcastaddict.com/search?q=The+BluesZeppelin) |
