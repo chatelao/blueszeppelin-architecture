@@ -8,7 +8,6 @@ This document provides step-by-step instructions for claiming the "Blues Zeppeli
 2.  **Locate Your Show**: Click the **+** button, select **Add a Show**, and then click **Claim Existing Show**.
 3.  **Enter Your RSS Feed**: Enter the current RSS feed URL of your podcast.
     *   Primary: `https://feed.blueszeppelin.net/`
-    *   Origin (if primary fails): `https://blueszeppelin.net/podcast/feed.php`
 4.  **Verify Ownership (The Token)**: Apple will generate a "Claim Token" (a unique string of characters). Copy this token.
 5.  **Add Token to Host**:
     *   Log in to the Blues Zeppelin **Podcast Generator 2.6** Admin panel: [https://blueszeppelin.net/podcast/?p=admin](https://blueszeppelin.net/podcast/?p=admin).
