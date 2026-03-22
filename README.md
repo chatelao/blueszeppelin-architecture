@@ -13,8 +13,8 @@ This document describes the network, server, and application layout of the "Blue
 |------|----------|-----------|------------|--------|---------|----------|-------------------|
 | `blueszeppelin.net` | Web / App Server | [Admin](https://blueszeppelin.net/podcast/?p=admin) | 188.130.25.202 | Direct | ✅ | ✅ | Meta-refresh to RaBe |
 | `feed.blueszeppelin.net` | FeedBurner Proxy | [Admin](https://feedburner.google.com/) | 173.194.206.121 | Proxy | ✅ | ✅ | Proxies to Google/FeedBurner |
-| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 2.16.232.30 | Apple | ✅ | ✅ | None |
-| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 74.125.126.136 | Google | ✅ | ✅ | None |
+| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 184.31.112.33 | Apple | ✅ | ✅ | None |
+| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 173.194.195.91 | Google | ✅ | ✅ | None |
 | `rabe.ch` | Radio Station Site | [Admin](https://data.rabe.ch/admin/) | 159.100.249.37 | RaBe | ✅ | ✅ | None |
 | `nuxit.com` | Hosting Provider | [Admin](https://cp.nuxit.com/) | 195.144.11.38 | Nuxit | ✅ | ✅ | None |
 
@@ -42,7 +42,7 @@ This document describes the network, server, and application layout of the "Blue
 
 ## Topology Diagram
 
-![Topology Diagram](https://www.plantuml.com/plantuml/png/ZPH1Rnen48Nl_XKZ3XKSs9PDQ5GELK28fWSQn59LRTg3sHqMYyMsl7QJJTN_th6zR99AaU2oCEzvvlaRuBgst5Xth9WLjaAOLGvh-85QOoKaV45xhym1DaghIfKDO_L1ICqDFqAkZbf9b3Qp3Pqqc5ikomePqpm_y1AXjpAgSBaLIlRW3mDwyTmg0xqbfwQPHVbOeUa1hy5NWkCkiwuG2jx2clldci_mbtV4EllxhFytt4A6vZSQw7yO9UcxgoGTZvCqlHoS1jvDoRsF7SWUtL5PgIBdjOLFAD5mdojDtWSZALGChe9RlkKr3LjY8JYbK8Pcnyo-yYBG0h6WgqZwS2GoNGXVdpb3Su2OF3G_PV_gCXcbusHqaT9pD0Xp5xCNtUQY59PNC1UrDMBhdeEaUscYtjwX3iT3AQhVbTkuBSBIrI8FObjf6MjbnQuXoDCZVrIItcoSnCyoM6_j7isDszRHlCuoc9QbmT93YgEevgE6FGw77zlbm0JYokaxb2j9-xMiLRmfOYNJLrqfJg1M5_26A5hEMcbOg7j9piXw4cXJhvsei6RT-ZfRr_164GFMTN6QnCMC19_zrX172VqTBI7HUprW94LFX4Xp6bc8d5iC5-la4yLN3Hsfroq-mVyYYtDFrtYws8HsxNz8BO0vwPuKEmKv_yHJilFF-AZdkzaroiB_S_m3)
+![Topology Diagram](https://www.plantuml.com/plantuml/png/ZLDDRzf04BtlhnXngE206qERf1ogW11D3saGJbMf7uV17c25sLsjnqr9rV_UMQzZHALAuGBCUpDltXlxfcBqN1zAnPfBWbbPKmLVoJagjO5Fn8_Mx-71EblQxL6fQg-DGuy7oEt1MKE6CpvAfwUSqMnBKWfpjXvwToYT6PDvAidt02i85UKmt-EMeBVqjgXprjRquBS2-NpBk2wqXTUmml2zmXdz28snhlweK_SNMaD6_YTvwAVNrqawlaX6RvFHnMZGZPiAUnSd23so8xAqHOuLmmSov36iEqek6w8WKcnO1JAkiHAnEoeqoXRMYtQq4Yfd2os82d5evCz1KkcM2FLPxKK7nF6lutVJJw_6IVhkZInxcQIZTD08BsPdu-PwgnbBcEkAlLxNPpbDdPF8MnDLqzwKsXITPRqvIepJ0pvP8pyUQaCVJKEyvntvstfT1RdcHiFX-pPXc42yYZm4kJLoErOj4aWn6o5zTgL5SRiSmok9Wb6rqB2mZqQOCR194vdCskYIAjNTeADr0s-j-53TbDe9k9W9iCeokFUIXO7-Hf9CtCuDb42H4uCGdQCfT8vCeU44Trx_Jma2_u8gZdtUyhJtHCuH7lJMtrpm48GwwRoy9mY_d7r3fWYlwLy0)
 
 *(Note: The above diagram is rendered via the PlantUML server using the encoded source from `diagrams/topology.puml`.)*
 
