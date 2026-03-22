@@ -3,8 +3,8 @@ title Blues Zeppelin Network Topology
 
 skinparam componentStyle rectangle
 
+actor "Mark Stenzler" as Mark
 package "Production" {
-    actor "Mark Stenzler" as Mark
     [Studio / Radio RaBe] as Studio
 }
 
@@ -20,9 +20,7 @@ package "Feed Management" {
 
 package "Digital Distribution" {
     [Apple Podcasts] as Apple
-    [YouTube Music] as YouTube
     [Spotify / Amazon / TuneIn] as OtherHubs
-    [RSS Aggregators] as RSS
 }
 
 Mark --> Studio : Produces content
@@ -32,13 +30,10 @@ WebServer -down-> PodGen : Hosts
 
 PodGen -up-> FB : RSS Origin (feed.php)
 FB -up-> Apple : Syndicate RSS
-FB -up-> YouTube : Syndicate RSS
 FB -up-> OtherHubs : Syndicate RSS
 FB -up-> RSS : Syndicate RSS
 
 Apple -down-> WebServer : Direct Media Download
-YouTube -down-> WebServer : Direct Media Download
 OtherHubs -down-> WebServer : Direct Media Download
 RSS -down-> WebServer : Direct Media Download
-
 @enduml
