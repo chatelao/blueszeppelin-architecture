@@ -33,3 +33,5 @@
 23. [x] Refine network topology diagram to focus on digital distribution.
 24. [x] Remove Status column from Servers table in README.md.
 25. [x] Document the domain registrar in README.md.
+26. [x] Document independent login requirements for podcast hubs.
+27. [x] Update server IP addresses and port status in README.md and topology diagram.
