@@ -32,3 +32,4 @@
 22. [x] Document podcast hubs and distribution channels.
 23. [x] Refine network topology diagram to focus on digital distribution.
 24. [x] Remove Status column from Servers table in README.md.
+25. [x] Document the domain registrar in README.md.

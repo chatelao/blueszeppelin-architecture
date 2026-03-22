@@ -11,10 +11,10 @@ This document describes the network, server, and application layout of the "Blue
 ### 3. Servers
 | Name | Function | Admin URL | IP Address | Source | Port 80 | Port 443 | Redirects / Proxy |
 |------|----------|-----------|------------|--------|---------|----------|-------------------|
-| `blueszeppelin.net` | Web / App Server | [Admin](https://blueszeppelin.net/podcast/?p=admin) | 91.207.255.224 | Direct | ❌ | ✅ | Meta-refresh to RaBe |
-| `feed.blueszeppelin.net` | FeedBurner Proxy | [Admin](https://feedburner.google.com/) | 74.125.132.121 | Proxy | ✅ | ❌ | Proxies to Google/FeedBurner |
-| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 23.38.252.25 | Apple | ✅ | ✅ | None |
-| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 74.125.132.190 | Google | ✅ | ✅ | None |
+| `blueszeppelin.net` | Web / App Server | [Admin](https://blueszeppelin.net/podcast/?p=admin) | 188.130.25.202 | Direct | ✅ | ✅ | Meta-refresh to RaBe |
+| `feed.blueszeppelin.net` | FeedBurner Proxy | [Admin](https://feedburner.google.com/) | 173.194.206.121 | Proxy | ✅ | ✅ | Proxies to Google/FeedBurner |
+| `podcasts.apple.com` | Podcast Directory | [Admin](https://podcastsconnect.apple.com/) | 2.16.232.30 | Apple | ✅ | ✅ | None |
+| `music.youtube.com` | Music/Podcast Service | [Admin](https://studio.youtube.com/) | 74.125.126.136 | Google | ✅ | ✅ | None |
 | `rabe.ch` | Radio Station Site | [Admin](https://data.rabe.ch/admin/) | 159.100.249.37 | RaBe | ✅ | ✅ | None |
 | `nuxit.com` | Hosting Provider | [Admin](https://cp.nuxit.com/) | 195.144.11.38 | Nuxit | ✅ | ✅ | None |
 
@@ -27,12 +27,14 @@ This document describes the network, server, and application layout of the "Blue
 
 ### 5. DNS Configuration
 
+**Registrar:** [domain.com](https://www.domain.com)
+
 **Responsible Name Servers:** `ns1.modns.fr`, `ns2.modns.fr`
 
 | Type | Entry | Value / Target | Function |
 |------|-------|----------------|----------|
-| A | `blueszeppelin.net` | `91.207.255.224` | Primary Web Server |
-| A | `www.blueszeppelin.net` | `91.207.255.224` | WWW Redirect / Alias |
+| A | `blueszeppelin.net` | `188.130.25.202` | Primary Web Server |
+| A | `www.blueszeppelin.net` | `188.130.25.202` | WWW Redirect / Alias |
 | CNAME | `feed.blueszeppelin.net` | `4n30s7.feedproxy.ghs.google.com` | FeedBurner RSS Proxy |
 | MX | `blueszeppelin.net` | `mx.webmo.fr` (Pri 10) | Mail Exchange |
 | NS | `blueszeppelin.net` | `ns1.modns.fr` | Primary Name Server |
