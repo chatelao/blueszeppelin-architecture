@@ -8,14 +8,14 @@ package "Production" {
     [Studio / Radio RaBe] as Studio
 }
 
-package "Web Server (91.207.255.224)" {
+package "Web Server (188.130.25.202)" {
     [Apache] as WebServer
     [Podcast Generator 2.6] as PodGen
     database "Media Storage" as Media
 }
 
 package "Feed Management" {
-    [FeedBurner Proxy\n(74.125.132.121)] as FB
+    [FeedBurner Proxy\n(173.194.206.121)] as FB
 }
 
 package "Digital Distribution" {
